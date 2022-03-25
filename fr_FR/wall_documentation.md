@@ -8,7 +8,7 @@ Construction
 
 ### Assemblage du matériel
 
-![step-1](https://barre35.github.io/jeedom-plugin-wall/assets/images/poe.jpg)
+![step-1](../assets/images/wall/poe.jpg)
 
 TODO ...
 
