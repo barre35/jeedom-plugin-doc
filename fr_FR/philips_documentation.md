@@ -23,30 +23,30 @@ Equipements
 
 Ajouter un nouvel équipement en saisissant son nom et son adresse IP.
 
-![plugin](../../assets/images/philips/equipement.png)
+![plugin](../assets/images/philips/equipement.png)
 
 Si votre TV est sous Android TV (et uniquement dans ce cas), allumer votre TV et ensuite cliquer sur le bouton "Appairer". Le champ "Key" est alors automatiquement rensigné avec une clé.
 
-![plugin](../../assets/images/philips/pairing.png)
+![plugin](../assets/images/philips/pairing.png)
 
 Un message avec un code doit apparaitre sur votre TV, comme ci-dessous.
 
-![plugin](../../assets/images/philips/tv.png)
+![plugin](../assets/images/philips/tv.png)
 
 Recopier rapidement ce code dans le champ associé de l'équipement puis cliquer sur le bouton "Approuver".
 
-![plugin](../../assets/images/philips/approve.png)
+![plugin](../assets/images/philips/approve.png)
 
 Sauvegarder votre nouvel équipement.
 
-![plugin](../../assets/images/philips/save.png)
+![plugin](../assets/images/philips/save.png)
 
 Commandes
 ===
 
 Chaque équipement dispose des commandes suivantes que vous pouvez rendre visible au viveau d'un widget.
 
-![plugin](../../assets/images/philips/commands.png)
+![plugin](../assets/images/philips/commands.png)
 
 Si vous voulez utiliser la selection des sources avec une TV android, il vous faudra activer le mode debug sur votre TV. Pour cela appuyer 7 fois de suite sur l'option "build" dans "Paramètres Android" > "A propos", puis dans le nouveau menu qui apparait dans les préférences, activer le mode debug.
 
@@ -56,7 +56,7 @@ Widget
 
 Vous aurez alors un widget pour interragir avec votre TV et pourrez également utiliser les commandes dans vos scénarios.
 
-![plugin](../../assets/images/philips/widget.png)
+![plugin](../assets/images/philips/widget.png)
 
 Par défaut et afin de ne pas surcharger votre affichage, toutes les commandes ne sont pas visibles par défaut.
 
