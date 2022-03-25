@@ -1,25 +1,25 @@
 # Philips
 
-## [documentation](./philips)
-## [changelog](./philips/changelog)
+## [documentation](./philips/documentation.md)
+## [changelog](./philips/changelog.md)
 
 # RaspiSMS
 
-## [documentation](./philips)
-## [changelog](./philips/changelog)
+## [documentation](./philips/documentation.md)
+## [changelog](./philips/changelog.md)
 
 # Router
 
-## [documentation](./philips)
-## [changelog](./philips/changelog)
+## [documentation](./philips/documentation.md)
+## [changelog](./philips/changelog.md)
 
 # Spotify
 
-## [documentation](./philips)
-## [changelog](./philips/changelog)
+## [documentation](./philips/documentation.md)
+## [changelog](./philips/changelog.md)
 
 
 # Wall 
 
-## [documentation](./wall)
-## [changelog](./wall/changelog)
+## [documentation](./wall/documentation.md)
+## [changelog](./wall/changelog.md)
