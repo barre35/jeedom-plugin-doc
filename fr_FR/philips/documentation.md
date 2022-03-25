@@ -1,7 +1,7 @@
 Présentation
 ===
 
-Ce plugin permet de piloter vos tv philips depuis l'interface jeedom. Il s'appuie sur l'uilisation de l'![API jointspace](http://jointspace.sourceforge.net/).
+Ce plugin permet de piloter vos tv philips depuis l'interface jeedom. Il s'appuie sur l'uilisation de l'[API jointspace](http://jointspace.sourceforge.net/).
 
 Installation
 ===
