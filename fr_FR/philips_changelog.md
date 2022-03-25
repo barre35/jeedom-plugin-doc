@@ -1,8 +1,8 @@
-# 2022-03-25
+# 25-03-2022
 
-- Mise à jour de la documentation
+- Centralisation de la documentation
 
-# 2022-03-24
+# 24-03-2022
 
 - Correction de l'affichage du plugin 
 
