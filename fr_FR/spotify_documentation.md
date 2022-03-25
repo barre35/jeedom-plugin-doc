@@ -10,27 +10,27 @@ Créer son compte et vous connecter sur https://developer.spotify.com/dashboard/
  
 Créer un client-id/client-secret ("Create a client id")
 
-![step-1](https://barre35.github.io/jeedom-plugin-spotify/assets/images/step-1.png)
+![step-1](../assets/images/spotifystep-1.png)
 
-![step-2](https://barre35.github.io/jeedom-plugin-spotify/assets/images/step-2.png)
+![step-2](../assets/images/spotifystep-2.png)
 
-![step-3](https://barre35.github.io/jeedom-plugin-spotify/assets/images/step-3.png)
+![step-3](../assets/images/spotifystep-3.png)
 
 Récuoérer votre client-id et client-secret
 
-![client-secret](https://barre35.github.io/jeedom-plugin-spotify/assets/images/client-secret.png)
+![client-secret](../assets/images/spotifyclient-secret.png)
 
 Editer les propriétés ("Edit settings") en ajoutant https://[adresse]:[port]/index.php?v=d&m=spotify&p=spotify ou http://[adresse]:[port]/index.php?v=d&m=spotify&p=spotify en fonction de votre installation jeedom, puis sauvegarder
 
-![settings](https://barre35.github.io/jeedom-plugin-spotify/assets/images/settings.png)
+![settings](../assets/images/spotifysettings.png)
 
 Depuis la page de configuration du plugin, installer les dépendances, puis coller votre client-id et votre client-secret et selectionner le protocole à utiliser pour la communication du daemon avec le plugin spotify
 
-![plugin](https://barre35.github.io/jeedom-plugin-spotify/assets/images/plugin.png)
+![plugin](../assets/images/spotifyplugin.png)
 
 Vous pouvez déclarer vos device castv2 sous la forme <code>192.168.1.214=chrome-cast-1&#124;192.168.1.111=chrome-cast-2</code>, il vous faudra récupérer un cookie d'une connexion spotify web player (cf copie d'écran ci-dessous) et le coller dans la page de configuration de l'équipement associé dans jeedom.
 
-![plugin](https://barre35.github.io/jeedom-plugin-spotify/assets/images/cookie.png)
+![plugin](../assets/images/spotifycookie.png)
 
 Redémarrer le daemon du plugin
 
@@ -39,15 +39,15 @@ Configuration
 
 Ajouter un nouvel equipement pour le plugin spotify
 
-![equipment](https://barre35.github.io/jeedom-plugin-spotify/assets/images/equipment.png)
+![equipment](../assets/images/spotifyequipment.png)
 
 Cliquer sur le bouton tokenize, sasir votre login/password et approuver
 
-![accept](https://barre35.github.io/jeedom-plugin-spotify/assets/images/accept.png) 
+![accept](../assets/images/spotifyaccept.png) 
 
 Les champs sont automatiquement remplis et il ne vous reste qu'à sauvegarder
 
-![save](https://barre35.github.io/jeedom-plugin-spotify/assets/images/save.png)
+![save](../assets/images/spotifysave.png)
 
 Redémarrer le daemon pour prendre en compte le nouvel équipement
 
@@ -56,7 +56,7 @@ Utilisation
 
 Pour chaque equipement activé vous aurez un widget sur votre dashboard
  
-![Widget](https://barre35.github.io/jeedom-plugin-spotify/assets/images/widget.png)
+![Widget](../assets/images/spotifywidget.png)
 
 Chaque équipement dispose des commandes réparties dans les catégories suivantes:
 
