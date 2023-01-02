@@ -1,3 +1,7 @@
+# 02-01-2023
+
+- Mise à jour du reveil des appareils castv2 avec le nouveau système d'authentification de Spotify
+
 # 25-03-2022
 
 - Centralisation de la documentation
