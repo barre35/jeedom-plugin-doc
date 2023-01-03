@@ -1,3 +1,7 @@
+# 03-01-2023
+
+- Correctif sur arrêt démon suite à une erreur 503 de l'API spotify
+
 # 02-01-2023
 
 - Mise à jour du reveil des appareils castv2 avec le nouveau système d'authentification de Spotify
