@@ -1,6 +1,7 @@
 # 03-01-2023
 
 - Correctif sur arrêt démon suite à une erreur 503 de l'API spotify
+- Renommage d'une classe CastMessage en CastMessageSpotify pour compatibilité avec le plugin Gcast
 
 # 02-01-2023
 
