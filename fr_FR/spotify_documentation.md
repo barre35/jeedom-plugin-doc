@@ -16,7 +16,7 @@ Créer un client-id/client-secret ("Create a client id")
 
 ![step-3](../assets/images/spotify/step-3.png)
 
-Récuoérer votre client-id et client-secret
+Récupérer votre client-id et client-secret
 
 ![client-secret](../assets/images/spotify/client-secret.png)
 
@@ -26,28 +26,32 @@ Editer les propriétés ("Edit settings") en ajoutant https://[adresse]:[port]/i
 
 Depuis la page de configuration du plugin, installer les dépendances, puis coller votre client-id et votre client-secret et selectionner le protocole à utiliser pour la communication du daemon avec le plugin spotify
 
+Vous pouvez déclarer vos device castv2 sous la forme <code>192.168.1.214=chrome-cast-1&#124;192.168.1.111=chrome-cast-2</code>, il vous faudra récupérer un cookie d'une connexion spotify web player (cf copie d'écran ci-dessous) et le coller dans la page de configuration de l'équipement associé dans jeedom et bien utiliser le même nom que le nom réseau de l'équipement.
+
 ![plugin](../assets/images/spotify/plugin.png)
 
-Vous pouvez déclarer vos device castv2 sous la forme <code>192.168.1.214=chrome-cast-1&#124;192.168.1.111=chrome-cast-2</code>, il vous faudra récupérer un cookie d'une connexion spotify web player (cf copie d'écran ci-dessous) et le coller dans la page de configuration de l'équipement associé dans jeedom.
-
-![plugin](../assets/images/spotify/cookie.png)
-
-Redémarrer le daemon du plugin
+Démarrer ou redémarrer le daemon du plugin
 
 Configuration
 ===
 
 Ajouter un nouvel equipement pour le plugin spotify
 
-![equipment](../assets/images/spotify/equipment.png)
-
 Cliquer sur le bouton tokenize, sasir votre login/password et approuver
 
 ![accept](../assets/images/spotify/accept.png) 
 
-Les champs sont automatiquement remplis et il ne vous reste qu'à sauvegarder
+Les champs API Expire, API Access et API Refresh sont automatiquement remplis et il ne vous reste qu'à sauvegarder
 
 ![save](../assets/images/spotify/save.png)
+
+Si vous souhaitez utiliser des devices castv2, il vous faudra récupérer le cookie sur la version web de spotify de la façon ci-dessous
+
+![plugin](../assets/images/spotify/cookie.png)
+
+Recopier le cookie dans le champ Cookie et sauvegarder
+
+![save](../assets/images/spotify/save2.png)
 
 Redémarrer le daemon pour prendre en compte le nouvel équipement
 
