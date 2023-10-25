@@ -1,3 +1,7 @@
+# 25-10-2023
+
+- Correctif sur le reveil des appareils castv2 avec encore des modifs d'authentification de Spotify
+
 # 20-03-2023
 
 - Correctif sur le reveil des appareils castv2 avec le nouveau système d'authentification de Spotify
