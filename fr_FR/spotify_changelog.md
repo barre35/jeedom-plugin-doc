@@ -1,4 +1,4 @@
-# 01-11-2024
+# 02-11-2024
 
 - Correctif sur le reveil des appareils castv2 pour inhiber le broadcast
 
