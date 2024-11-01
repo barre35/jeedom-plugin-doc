@@ -49,7 +49,7 @@ Si vous souhaitez utiliser des devices castv2, il vous faudra récupérer le coo
 
 ![plugin](../assets/images/spotify/cookie2.png)
 
-Recopier le cookie (sp_ds et sp_key) dans le champ Cookie et sauvegarder
+Recopier le cookie (sp_dc et sp_key) dans le champ Cookie et sauvegarder
 
 ![save](../assets/images/spotify/save3.png)
 
