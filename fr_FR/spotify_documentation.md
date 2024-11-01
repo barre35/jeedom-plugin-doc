@@ -51,7 +51,7 @@ Si vous souhaitez utiliser des devices castv2, il vous faudra récupérer le coo
 
 Recopier le cookie (sp_ds et sp_key) dans le champ Cookie et sauvegarder
 
-![save](../assets/images/spotify/save2.png)
+![save](../assets/images/spotify/save3.png)
 
 Redémarrer le daemon pour prendre en compte le nouvel équipement
 
