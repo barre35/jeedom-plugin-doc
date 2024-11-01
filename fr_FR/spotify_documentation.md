@@ -47,9 +47,9 @@ Les champs API Expire, API Access et API Refresh sont automatiquement remplis et
 
 Si vous souhaitez utiliser des devices castv2, il vous faudra récupérer le cookie sur la version web de spotify de la façon ci-dessous
 
-![plugin](../assets/images/spotify/cookie.png)
+![plugin](../assets/images/spotify/cookie2.png)
 
-Recopier le cookie dans le champ Cookie et sauvegarder
+Recopier le cookie (sp_ds et sp_key) dans le champ Cookie et sauvegarder
 
 ![save](../assets/images/spotify/save2.png)
 
