@@ -1,3 +1,7 @@
+# 01-11-2024
+
+- Correctif sur le reveil des appareils castv2 pour inhiber le broadcast
+
 # 25-10-2023
 
 - Correctif sur le reveil des appareils castv2 avec encore des modifs d'authentification de Spotify
