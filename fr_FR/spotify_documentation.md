@@ -3,65 +3,45 @@ Description
 
 Plugin pour piloter vos comptes spotify connect depuis l'interface jeedom.
 
+![plugin](../assets/images/spotify/widget.png)
+
 Installation
 ===
 
-Créer son compte et vous connecter sur https://developer.spotify.com/dashboard/
+Créer son compte developpeur spotify (https://developer.spotify.com/dashboard/).
  
 Créer un client-id/client-secret ("Create a client id")
 
-![step-1](../assets/images/spotify/step-1.png)
+Récupérer votre client-id et client-secret.
 
-![step-2](../assets/images/spotify/step-2.png)
-
-![step-3](../assets/images/spotify/step-3.png)
-
-Récupérer votre client-id et client-secret
-
-![client-secret](../assets/images/spotify/client-secret.png)
-
-Editer les propriétés ("Edit settings") en ajoutant https://[adresse]:[port]/index.php?v=d&m=spotify&p=spotify ou http://[adresse]:[port]/index.php?v=d&m=spotify&p=spotify en fonction de votre installation jeedom, puis sauvegarder
-
-![settings](../assets/images/spotify/settings.png)
-
-Depuis la page de configuration du plugin, installer les dépendances, puis coller votre client-id et votre client-secret et selectionner le protocole à utiliser pour la communication du daemon avec le plugin spotify
-
-Vous pouvez déclarer vos device castv2 sous la forme <code>192.168.1.214=chrome-cast-1&#124;192.168.1.111=chrome-cast-2</code>, il vous faudra récupérer un cookie d'une connexion spotify web player (cf copie d'écran ci-dessous) et le coller dans la page de configuration de l'équipement associé dans jeedom et bien utiliser le même nom que le nom réseau de l'équipement.
-
-![plugin](../assets/images/spotify/plugin.png)
-
-Démarrer ou redémarrer le daemon du plugin
+Editer les propriétés ("Edit settings") en ajoutant https://[adresse]:[port]/index.php?v=d&m=spotify&p=spotify ou http://[adresse]:[port]/index.php?v=d&m=spotify&p=spotify en fonction de votre installation jeedom, puis sauvegarder.
 
 Configuration
 ===
 
-Ajouter un nouvel equipement pour le plugin spotify
+Ajouter un nouvel equipement pour le plugin Spotify.
 
-Cliquer sur le bouton tokenize, sasir votre login/password et approuver
+Coller votre client-id et votre client-secret que vous avez récupéré sur votre compte Spotify.
 
-![accept](../assets/images/spotify/accept.png) 
+Cliquer sur le bouton tokenize, saisir votre login/password et approuver.
 
-Les champs API Expire, API Access et API Refresh sont automatiquement remplis et il ne vous reste qu'à sauvegarder
+Les champs Token Expire, Access et Refresh sont automatiquement remplis et il ne vous reste qu'à sauvegarder.
 
-![save](../assets/images/spotify/save.png)
+Démarrer ou redémarrer le daemon du plugin.
 
-Si vous souhaitez utiliser des devices castv2, il vous faudra récupérer le cookie sur la version web de spotify de la façon ci-dessous
+Cast
+===
 
-![plugin](../assets/images/spotify/cookie2.png)
+Si vous souhaitez utiliser des devices compatibles cast v2, vous pouvez déclarer vos device castv2 sous la forme <code>192.168.1.214=chrome-cast-1&#124;192.168.1.111=chrome-cast-2</code>, depuis la page de configuration du plugin, en veillant à bien utiliser le même nom que le nom réseau de l'équipement.
 
-Recopier le cookie (sp_dc et sp_key) dans le champ Cookie et sauvegarder
+Pour utiliser ces devices à partir d'un équipement, il vous faudra récupérer le cookie sur la version web de Spotify, en vous connectant sur le lecteur web de Spotify, en ouvrant l'interface de développement de votre navigateur (touche F12), puis en allant dans Applications pour récupérer vos cookies sp_dc et sp_key. Recopier le cookie (sp_dc et sp_key) dans les champs de la section cookie de votre équipement et sauvegarder.
 
-![save](../assets/images/spotify/save3.png)
-
-Redémarrer le daemon pour prendre en compte le nouvel équipement
 
 Utilisation
 ===
 
-Pour chaque equipement activé vous aurez un widget sur votre dashboard
+Pour chaque equipement activé vous aurez un widget sur votre Dashboard.
  
-![Widget](../assets/images/spotify/widget.png)
-
 Chaque équipement dispose des commandes réparties dans les catégories suivantes:
 
 - Item : "morceau en cours"
@@ -118,8 +98,8 @@ Chaque équipement dispose des commandes réparties dans les catégories suivant
 	 
 	- Playlist Name Set	**(action)** : selectionne une playlist à partir du libéllé passé en paramètre dans le paramètre 'title' ou 'message'
 
+
 Pour aller plus loin
 ===
 
 Penser à noter le plugin sur le market et faites part de vos remarques, demandes d'évolutions et bugs sur le forum [https://community.jeedom.com/tag/plugin-spotify](https://community.jeedom.com/tag/plugin-spotify)
-

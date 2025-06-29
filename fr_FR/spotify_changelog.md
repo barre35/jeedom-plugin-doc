@@ -1,3 +1,8 @@
+# 28-06-2024
+
+- Refonte de la sécurité et configuration 
+- Refonte de la partie cast v2
+
 # 02-11-2024
 
 - Correctif sur le reveil des appareils castv2 pour inhiber le broadcast
